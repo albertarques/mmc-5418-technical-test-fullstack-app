@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { UserListComponent } from '../user-list/user-list.component';
+import { User } from '../model/User.model';
+
+
 
 @Component({
   selector: 'app-user-detail',
@@ -8,6 +10,6 @@ import { UserListComponent } from '../user-list/user-list.component';
 })
 export class UserDetailComponent {
 
-  // @Input() user!: User;
+  @Input() user!: User;
 
 }

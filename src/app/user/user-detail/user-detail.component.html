@@ -1,1 +1,5 @@
-<p>user-detail works!</p>
+<div class="user-container" *nfIf="user.user">
+  <p>{{ user.user.id }}</p>
+  <p>{{ user.user.username }}</p>
+  <p>{{ user.user.role }}</p>
+</div>

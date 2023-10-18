@@ -10,8 +10,9 @@ import { TransactionListComponent } from './transaction/transaction-list/transac
 import { UserDetailComponent } from './user/user-detail/user-detail.component';
 import { UserListComponent } from './user/user-list/user-list.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { UserComponent } from './user/service/user/user.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, TransactionDetailComponent, TransactionListComponent, UserDetailComponent, UserListComponent, FooterComponent],
+  declarations: [AppComponent, HeaderComponent, TransactionDetailComponent, TransactionListComponent, UserDetailComponent, UserListComponent, FooterComponent, UserComponent],
   imports: [
     BrowserModule,
     AppRoutingModule
