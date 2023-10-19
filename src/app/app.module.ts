@@ -10,7 +10,6 @@ import { TransactionListComponent } from './transactions/transaction-list/transa
 import { UserDetailComponent } from './users/user-detail/user-detail.component';
 import { UserListComponent } from './users/user-list/user-list.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { LoginComponent } from './transaction/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,6 @@ import { LoginComponent } from './transaction/pages/login/login.component';
     UserDetailComponent,
     UserListComponent,
     FooterComponent,
-    LoginComponent
   ],
   imports: [
     BrowserModule,
